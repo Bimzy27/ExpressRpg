@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f31cdb14-e8a3-4114-ab5a-4b0dd0ffbfe0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff8df059-c4ed-42eb-8969-c9051faf92b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ff8df059-c4ed-42eb-8969-c9051faf92b5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/static/js/main.fa862b8f.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/js/main.620c6eb9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/static/js/main.fa862b8f.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/js/main.620c6eb9.js.LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/static/js/main.fa862b8f.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/static/js/main.620c6eb9.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +36,9 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2jvYGSdccTHJHEq6V0FomVZthdX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,6 +55,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Debug",
+    "settings.build.tools.auto.reload": "SELECTIVE",
+    "settings.editor.selected.configurable": "build.tools",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.3.6\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -59,10 +72,29 @@
       <recent name="C:\Programming\ExpressRpg\server" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Game">
     <configuration name="Game" type="JavascriptDebugType" uri="http://localhost:8080">
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Game" />
+      <item itemvalue="npm.dev" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722268921371</updated>
-      <workItem from="1722268922446" duration="1312000" />
+      <workItem from="1722268922446" duration="9921000" />
     </task>
     <servers />
   </component>
