@@ -1004,7 +1004,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="291" parent="1" name="rpggame">
-      <LastIntrospectionLocalTimestamp>2024-07-30.02:25:04</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-07-30.13:49:52</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="292" parent="1" name="sys">
@@ -1060,59 +1060,63 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <DasType>int|0s</DasType>
       <Position>5</Position>
     </column>
-    <foreign-key id="304" parent="297" name="fk_enemies_locations">
+    <column id="304" parent="297" name="exp">
+      <DasType>int|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="305" parent="297" name="fk_enemies_locations">
       <ColNames>location_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>locations</RefTableName>
     </foreign-key>
-    <index id="305" parent="297" name="PRIMARY">
+    <index id="306" parent="297" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="306" parent="297" name="name">
+    <index id="307" parent="297" name="name">
       <ColNames>name</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="307" parent="297" name="fk_enemies_locations">
+    <index id="308" parent="297" name="fk_enemies_locations">
       <ColNames>location_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="308" parent="297" name="PRIMARY">
+    <key id="309" parent="297" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="309" parent="297" name="name">
+    <key id="310" parent="297" name="name">
       <UnderlyingIndexName>name</UnderlyingIndexName>
     </key>
-    <column id="310" parent="298" name="id">
+    <column id="311" parent="298" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="311" parent="298" name="name">
+    <column id="312" parent="298" name="name">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <index id="312" parent="298" name="PRIMARY">
+    <index id="313" parent="298" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="313" parent="298" name="name">
+    <index id="314" parent="298" name="name">
       <ColNames>name</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="314" parent="298" name="PRIMARY">
+    <key id="315" parent="298" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="315" parent="298" name="name">
+    <key id="316" parent="298" name="name">
       <UnderlyingIndexName>name</UnderlyingIndexName>
     </key>
   </database-model>
